@@ -1,0 +1,5 @@
+const VERSION='mixlab-web-1';
+const FILES=['./','./index.html','./calm.css','./calm.js?v=8','./vault.js?v=8','./mp3-worker.js','./vendor/lame.min.js','./manifest.webmanifest','./icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
+self.addEventListener('install',e=>e.waitUntil(caches.open(VERSION).then(c=>c.addAll(FILES))));
+self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('mixlab-web-')&&k!==VERSION)await caches.delete(k);await self.clients.claim();})()));
+self.addEventListener('fetch',e=>{const u=new URL(e.request.url);if(e.request.method!=='GET'||u.origin!==self.location.origin||u.pathname.includes('/api/'))return;e.respondWith((async()=>{const c=await caches.open(VERSION),cached=await c.match(e.request);if(cached)return cached;try{return await fetch(e.request);}catch{if(e.request.mode==='navigate')return c.match('./index.html');return Response.error();}})());});

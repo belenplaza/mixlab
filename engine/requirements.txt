@@ -1,0 +1,4 @@
+demucs==4.0.1
+pedalboard==0.9.26
+soundfile==0.13.1
+numpy==1.26.4
