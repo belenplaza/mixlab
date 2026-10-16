@@ -26,7 +26,7 @@ Cambiar a un tono nuevo necesita ejecutar el motor de nuevo. Un teléfono que so
 
 ## Repertorio
 
-Máximo **15 canciones**, **10 grabaciones personales** y **400 MB por perfil**, sujeto también al espacio que permita el navegador. Los originales, las pistas separadas, los tonos preparados y las grabaciones comparten ese espacio. El límite de quince no borra material anterior; una canción muy larga o pesada puede agotar el espacio antes. Se permite reemplazar ajustes de una canción sin ocupar un lugar nuevo.
+Máximo **15 canciones**, **15 grabaciones personales** y **400 MB por perfil**, sujeto también al espacio que permita el navegador. Los originales, las pistas separadas, los tonos preparados y las grabaciones comparten ese espacio. El límite de quince no borra material anterior; una canción muy larga o pesada puede agotar el espacio antes. Se permite reemplazar ajustes de una canción sin ocupar un lugar nuevo.
 
 Los resultados del motor se guardan como MP3 estéreo a 192 kbps para reducir el espacio y pueden exportarse con el ecualizador de la sesión. Exportarlos a WAV no recupera información descartada por la compresión. Los originales se conservan para volver a preparar una versión.
 

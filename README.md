@@ -15,7 +15,7 @@ Antes de pasar desde la edición de computadora a la web, descargá una copia ci
 | Función | Web / GitHub Pages | Computadora con motor instalado |
 | --- | --- | --- |
 | Perfiles locales cifrados y repertorio | Sí | Sí |
-| Hasta 15 canciones y 10 grabaciones, con 400 MB por perfil | Sí | Sí |
+| Hasta 15 canciones y 15 grabaciones, con 400 MB por perfil | Sí | Sí |
 | Reproducir archivos y configuraciones preparadas sin conexión | Sí | Sí |
 | Ecualizar, ajustar volumen, usar micrófono y grabar | Sí, según navegador y permisos | Sí, según navegador y permisos |
 | Exportar MP3 y WAV | Sí | Sí |
@@ -55,3 +55,5 @@ El workflow **Publicar MixLab** publica únicamente `dist/` en GitHub Pages al a
 ## Dependencias
 
 MP3 en navegador: lamejs 1.2.1, como biblioteca separada LGPL-3.0; avisos, licencias y paquete fuente en [third-party](third-party/AVISOS.md). El motor opcional instala Demucs, PyTorch, Pedalboard/Rubber Band y sus dependencias: consultá sus licencias antes de redistribuirlo, especialmente en un producto comercial cerrado.
+
+Identidad visual: logo original aportado para MixLab, paleta oscura violeta y cian. Tipografía Inter alojada con la aplicación para uso sin conexión; licencia en dist/branding/Inter-OFL.txt.
