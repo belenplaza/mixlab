@@ -30,6 +30,14 @@ Descargá el paquete de la sección **Releases**, descomprimilo e instalá Node.
 
 La preparación puede tardar varios minutos según el equipo y la canción. Una vez instalado el motor, no necesita Internet para procesar archivos locales. Los resultados preparados quedan cifrados en el perfil para reutilizarlos sin volver a separar. Más información en [MOTOR-KARAOKE.md](MOTOR-KARAOKE.md).
 
+## Letra de karaoke opcional
+
+En **Letra de karaoke** podés importar un archivo LRC con tiempos, o texto propio/autorizado y marcar el inicio de cada frase mientras escuchás. La pantalla sigue la posición del audio al reproducir, pausar o volver atrás. Incluye ajuste general de hasta cinco segundos, pantalla grande y exportación LRC.
+
+La letra queda cifrada con la canción y entra en la copia del perfil. No se descarga, busca ni transcribe automáticamente ninguna letra. No hace falta usar esta función para cantar. El MP3/WAV contiene audio; la letra se exporta aparte, no como video ni como texto embebido en el MP3.
+
+**Voz del cantante original como referencia** pertenece a la pista, no al micrófono. Para karaoke con tu voz, dejá ese control en 0% y activá el micrófono por separado.
+
 ## Calidad de audio
 
 Demucs estima voz e instrumental por separado. Puede dejar restos, reverberación o artefactos: no garantiza eliminar toda la voz de cualquier grabación. El control de voz guía permite sumarla sobre el instrumental. Rubber Band reemplaza el antiguo cambio granular y conserva aproximadamente la duración. Escuchá cada resultado antes de una presentación.
