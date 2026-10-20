@@ -1,4 +1,4 @@
-const VERSION='mixlab-web-3';
+const VERSION='mixlab-web-4';
 const FILES=['./','./index.html','./calm.css','./branding.css','./branding/logo-original.svg','./branding/inter-latin-variable.woff2','./calm.js?v=12','./vault.js?v=12','./lyrics.js?v=12','./mp3-worker.js','./vendor/lame.min.js','./manifest.webmanifest','./icon.svg','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(VERSION).then(c=>c.addAll(FILES))));
 self.addEventListener('activate',e=>e.waitUntil((async()=>{for(const k of await caches.keys())if(k.startsWith('mixlab-web-')&&k!==VERSION)await caches.delete(k);await self.clients.claim();})()));
